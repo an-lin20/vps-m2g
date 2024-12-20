@@ -1,33 +1,28 @@
-# vps-m2g (Security VPS "bash Script")
+# vps-m2g (Скрипт безопасности для VPS)
 
- - There is a script to secure and configure your servers that reports problems and threats.
- - Ubuntu/Debian-based Linux system
-
+- Это скрипт для защиты и настройки ваших серверов, который сообщает о проблемах и угрозах.
+- Для Linux-систем на базе Ubuntu/Debian.
 
 -----------
-## Script features
+## Возможности скрипта
 
-  - SSH Configuration
-       - Root login status
-       - Password authentication
-       - Non-default port usage
-    - Running Services Analysis
-    - Firewall Status (UFW)
-    - Sudo Logging Configuration
-    - Fail2ban Configuration
-    - Failed Login Attempts
-    - Password Policy Enforcement
-    - System Updates Status
-    - Open Ports Detection
-    - SUID Files Detection
-    - and ...
+  - Конфигурация SSH
+       - Статус входа root
+       - Аутентификация по паролю
+       - Использование нестандартного порта
+    - Анализ работающих сервисов
+    - Статус фаервола (UFW)
+    - Конфигурация логирования Sudo
+    - Конфигурация Fail2ban
+    - Попытки неудачных входов
+    - Принудительное соблюдение политики паролей
+    - Статус обновлений системы
+    - Обнаружение открытых портов
+    - Обнаружение файлов SUID
+    - и многое другое...
 
-## Installation:
- ```shell
+## Установка:
+```shell
 1- wget https://raw.githubusercontent.com/ayhan-dev/vps-m2g//main/vps.sh
 2- chmod +x vps.sh
-3- sudo ./vps-.sh
-```
-
-
-
+3- sudo ./vps.sh
